@@ -11,7 +11,7 @@ resources:
 variables:
 
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '6276f908-ef1e-41bb-8fe9-f64fac86b6af'
+  dockerRegistryServiceConnection: 'da07c04d-06ed-4753-98d1-b0da106fa3cb'
   imageRepository: 'tetrisgame'
   containerRegistry: 'ACRdemo1704.azurecr.io'
   dockerfilePath: '**/Dockerfile'
