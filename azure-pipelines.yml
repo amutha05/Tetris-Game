@@ -13,10 +13,10 @@ variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '6276f908-ef1e-41bb-8fe9-f64fac86b6af'
   imageRepository: 'tetrisgame'
-  containerRegistry: 'mylabacr24.azurecr.io'
+  containerRegistry: 'ACRdemo1704.azurecr.io'
   dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
-  imagePullSecret: 'mylabacr24e605-auth'
+  imagePullSecret: 'ACRdemo1704-auth'
 
   # Agent VM image name
   # vmImageName: 'ubuntu-latest'
@@ -53,7 +53,7 @@ stages:
     displayName: Deploy
     pool:
       name: Default
-    environment: 'Ashfaque9xTetrisGame.default'
+    environment: 'amutha05TetrisGame.default'
     strategy:
       runOnce:
         deploy:
